@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usermanages",
+      "handler": "usermanage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usermanages/count",
+      "handler": "usermanage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usermanages/:id",
+      "handler": "usermanage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usermanages",
+      "handler": "usermanage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usermanages/:id",
+      "handler": "usermanage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usermanages/:id",
+      "handler": "usermanage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

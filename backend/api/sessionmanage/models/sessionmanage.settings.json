@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sessionmanages",
+  "info": {
+    "name": "Sessionmanage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sender": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    }
+  }
+}

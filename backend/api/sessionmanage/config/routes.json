@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sessionmanages",
+      "handler": "sessionmanage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sessionmanages/count",
+      "handler": "sessionmanage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sessionmanages/:id",
+      "handler": "sessionmanage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sessionmanages",
+      "handler": "sessionmanage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sessionmanages/:id",
+      "handler": "sessionmanage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sessionmanages/:id",
+      "handler": "sessionmanage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

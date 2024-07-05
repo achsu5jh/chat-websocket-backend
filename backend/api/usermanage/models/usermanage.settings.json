@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usermanages",
+  "info": {
+    "name": "Usermanage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
